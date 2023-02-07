@@ -1,0 +1,103 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Century Gothic;
+}
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/006/897/568/small/beautiful-orange-wave-abstract-background-orange-gradient-wave-background-vector.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#header{
+    background-color: #1e2a41;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 25px;
+}
+
+.tabla-contactos{
+    margin-right: 25px;
+    margin-left: 25px;
+    align-items: center;
+    padding: 25px ;
+}
+.tabla-contactos div button{
+    margin: 10px;
+    align-items: center;
+    padding: 5px ;
+}
+
+.tabla-contactos div button a{
+    color: white;
+    padding: 5px;
+}
+
+#details-contact{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 45px;
+    padding: 30px;
+}
+
+#details-contact #titutlo-card{
+    text-align: center;
+    font-size: 35px;
+}
+
+#opciones-card{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#botones-detalles{
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+#botones-detalles button a{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: #2d5863;
+    font-size: 18px;
+}
+
+#formulario{
+    margin: 40px;
+    padding: 25px;
+    color: whitesmoke;
+}
+
+#formulario a{
+    margin: 25px;
+    padding: 25px;
+    color: whitesmoke;
+}
+
+#todolist{
+    margin: 10px;
+}
+
+#todolist-image{
+    margin: 15px;
+    color: white;
+}
+
+#todolist-image span{
+    color: #25AFF3;
+}
+
+#checkbox{
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 20px;
+    padding: 25px;
+    color: white;
+    background-color: #1C2532;
+}
+

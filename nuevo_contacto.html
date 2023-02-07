@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Agregar Contacto</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+  </head>
+  <body>
+   <!-- Example Code -->
+   <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="contactos.html">
+        <img src="./img/Untitled-2-2-1024x576.png" width="50" height="100">
+      </a>
+  
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+  
+    <div id="navbarBasicExample" class="navbar-menu" href="contactos.html">
+      <div class="navbar-start">
+        <a class="navbar-item" href="contactos.html">
+          Contactos
+        </a>
+  
+        <a class="navbar-item" href="favoritos.html">
+          Favoritos
+        </a>
+  
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Acciones
+          </a>
+  
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="detalles.html">
+              Detalles
+            </a>
+            <a class="navbar-item" href="usuario.html">
+              Usuario
+            </a>
+            <a class="navbar-item" href="list.html">
+              To do list 
+            </a>
+            <hr class="navbar-divider">
+            <a class="navbar-item" href="index.html">
+              Cerrar Sesion
+            </a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a class="button is-primary" href="index.html">
+              <strong>Cerrar Sesion</strong>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <form class="row g-3">
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Nombre</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label">Apellido</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">Telefono</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="(502) + 57253743">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress2" class="form-label">Detalles del Contacto</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartmento, Colegio, o Trabajo">
+    </div>
+    <div class="col-md-6">
+      <label for="inputCity" class="form-label">Pais</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="col-md-4">
+      <label for="inputState" class="form-label">Ciudad</label>
+      <select id="inputState" class="form-select">
+        <option selected>Cuidad...</option>
+        <option>Ciudad de Guatemala</option>
+        <option> Ciudad de Mexico</option>
+      
+        <option> DC EEUU</option>
+      </select>
+    </div>
+        </label>
+      </div>
+    </div>
+    <div class="col-12"  href="contactos.html">
+      <a type="submit" class="btn btn-primary"  href="contactos.html"  > Agregar Contacto</a>
+    </div>
+  </form>
+
+  </body>
+</html>
